@@ -1,0 +1,141 @@
+/* General Body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header .container{
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center;
+    padding: 2rem;
+    background-color: lightblue;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/serviceBackGround.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 12rem 0; /* Larger padding for more prominence */
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.hero p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 1.2rem 2.5rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #ffb200;
+}
+
+/* About Section */
+.about {
+    padding: 6rem 4rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about-image img {
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Services Section */
+.services {
+    background-color: #f0f0f0;
+    padding: 8rem 4rem;
+}
+
+.services h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.service-item h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
